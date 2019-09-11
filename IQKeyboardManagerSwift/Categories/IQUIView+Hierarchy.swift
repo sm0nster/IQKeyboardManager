@@ -255,8 +255,8 @@ UIView hierarchy category.
             IQcanBecomeFirstResponder = textView.isEditable
         }
         
-        if _IQcanBecomeFirstResponder == true {
-            _IQcanBecomeFirstResponder = isUserInteractionEnabled == true && isHidden == false && alpha != 0.0 && isAlertViewTextField() == false
+        if IQcanBecomeFirstResponder == true {
+            IQcanBecomeFirstResponder = isUserInteractionEnabled == true && isHidden == false && alpha != 0.0 && isAlertViewTextField() == false
         }
 
         return IQcanBecomeFirstResponder
